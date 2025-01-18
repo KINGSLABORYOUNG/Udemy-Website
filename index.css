@@ -1,0 +1,157 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rgb(245, 244, 244);
+  /* margin: 8px; */
+  box-shadow: -3px 7px 13px -1px rgba(0, 0, 0, 0.75);
+}
+
+.img {
+  max-width: fit-content;
+  height: inherit;
+  /* border: none; */
+}
+
+.ex {
+  /* height: 90vh; */
+  border: 1px solid greenyellow;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.ex_1:hover + .option {
+  display: block;
+}
+
+.option {
+  width: 20vw;
+  height: 69vh;
+  display: none;
+  border: 1px solid black;
+  background-color: aliceblue;
+  /* margin-top:500px; */
+  line-height: 40px;
+}
+
+.search {
+  width: 40%;
+  height: 45px;
+  padding-left: 15px;
+  border-radius: 25px;
+  border: 1px solid gray;
+  align-content: center;
+  background-color: rgb(241, 245, 248);
+  /* margin-left: 50px; */
+}
+
+.input {
+  width: 90%;
+  height: 90%;
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  background-color: rgb(241, 245, 248);
+  /* border: 1px solid red; */
+}
+
+.Sign {
+  background-color: black;
+  color: white;
+  font-weight: 900;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid gray;
+}
+
+.lo {
+  background-color: white;
+  font-weight: bolder;
+  color: black;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid gray;
+}
+
+.globe {
+  border: 1px solid gray;
+  font-size: -large;
+  font-weight: bolder;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.udemy_img {
+  max-width: 100%;
+  position: relative;
+  height: fit-content;
+}
+
+.learn {
+  border: none;
+  padding: 10px;
+  background-color: white;
+  width: fit-content;
+  height: 15vh;
+  margin-left: 30px;
+  top: 19%;
+  position: absolute;
+  line-height: 40px;
+  font-size: x-large;
+}
+
+.text {
+  font-weight: 900;
+  font-size: x-large;
+  /* padding: 20px; */
+}
+
+.text_1 {
+  font-size: medium;
+  color: gray;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.text_2 {
+  padding: 20px;
+  line-height: 35px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  width: 70%;
+  padding: 10px;
+  padding-right: 10px;
+  color: gray;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+a {
+  bottom: auto;
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+  font-weight: 300;
+}
+
+a:hover {
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+}
